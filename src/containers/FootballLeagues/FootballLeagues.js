@@ -5,16 +5,20 @@ import './FootballLeagues.scss';
 import Header from '../../components/UI/Header/Header';
 import Leagues from './Leagues/Leagues';
 import Teams from './Teams/Teams';
-import TeamDetails from './TeamDetails/TeamDetails'
+import TeamDetails from './TeamDetails/TeamDetails';
+import Container from 'react-bootstrap/Container';
 
 class FootballLeagues extends Component {
     render () {
         return (
             <div>
                 <Header />
-                <Route path="/" exact component={Leagues} />
-                <Route exact path="/:name" component={Teams} />
-                <Route exact path="/:name/:team" component={TeamDetails} />
+                <Container className="wrapper">
+                    <h3 className="title">Football Leagues</h3>
+                    <Route exact path="/" exact component={Leagues} />
+                    <Route exact path="/:name" component={Teams} />
+                    <Route exact path="/:name/:team" component={TeamDetails} />
+                </Container>
             </div>
         );
     }

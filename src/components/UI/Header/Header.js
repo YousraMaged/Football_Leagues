@@ -6,7 +6,7 @@ import './Header.scss';
 const header = props => (
   <Navbar className="navbar">
     <Container>
-      <Navbar.Brand href="#/">
+      <Navbar.Brand href="/">
         <span>Football </span>
         <span>Leagues</span>
       </Navbar.Brand>

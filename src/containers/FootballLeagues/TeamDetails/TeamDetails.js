@@ -5,7 +5,6 @@ class TeamsDetails extends Component {
     render () {
         return (
             <div>
-                <Team></Team>
                 <h1>{this.props.match.params.name}</h1>
                 <h1>{this.props.match.params.team}</h1>
             </div>

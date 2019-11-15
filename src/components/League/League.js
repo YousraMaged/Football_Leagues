@@ -6,10 +6,10 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 const league = props => (
-    <Container className="league">
+    <Container className="league box">
         <Row>
             <Col id="logo" xs={2} md={2} lg={2}>
-                <img src={require("../../asstes/images/footbal-icon.jpg")} />
+                <img alt="icon" src={require("../../assets/images/footbal-icon.jpg")} />
             </Col>
             <Col xs={10} md={10} lg={10}>
                 <Row className="content">
@@ -20,15 +20,17 @@ const league = props => (
                 <Row className="content">
                     <Col className="info" xs={2} md={2} lg={2}>
                         <img
+                            alt="icon"
                             className="icons"
-                            src={require("../../asstes/images/ball.png")}
+                            src={require("../../assets/images/ball.png")}
                         />
                         <span>Icon name</span>
                     </Col>
                     <Col className="info" xs={2} md={2} lg={2}>
                         <img
+                            alt="icon"
                             className="icons"
-                            src={require("../../asstes/images/player.jpg")}
+                            src={require("../../assets/images/player.jpg")}
                         />
                         <span>Icon name</span>
                     </Col>

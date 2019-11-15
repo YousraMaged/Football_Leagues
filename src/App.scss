@@ -12,4 +12,20 @@
       color: #fbad3d;
     }
   }
+  h3.title {
+    text-align: left;
+    padding-top: 20px;
+    text-shadow: 1px 1px 1px #145068;
+  }
+  h4.subtitle {
+    text-align: left;
+  }
+  hr {
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  }
+  .box {
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 3px 0px;
+  }
 }
