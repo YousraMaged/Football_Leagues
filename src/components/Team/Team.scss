@@ -2,17 +2,7 @@
   cursor: pointer;
   display: flex;
   align-items: center;
-  float: left;
-  margin-bottom: 1%;
   text-align: left;
-  width: 32.65% !important;
-  &:not(:nth-child(3n)) {
-    margin-right: 1% !important;
-  }
-  img {
-    height: 75px;
-    padding: 5px 0px;
-  }
   .info {
     display: flex;
     flex-direction: column;

@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
-import {Redirect} from 'react-router-dom';
-import { useHistory } from "react-router-dom";
 import League from '../../../components/League/League';
 import Team from '../../../components/Team/Team';
 import './Teams.scss';
-import league from '../../../components/League/League';
+
 class Teams extends Component {
 
     constructor(props) {
@@ -30,7 +28,6 @@ class Teams extends Component {
     }
 
     viewTeamDetails(league, team) {
-        const { history } = this.props;
         this.props.history.push(`/${league}/${team}`);
     }
 }

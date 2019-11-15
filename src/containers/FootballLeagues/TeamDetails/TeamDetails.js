@@ -1,12 +1,21 @@
 import React, { Component } from 'react';
 import Team from '../../../components/Team/Team';
+import Game from '../../../components/Game/Game';
+import './TeamDetails.scss';
+
 class TeamsDetails extends Component {
 
     render () {
         return (
-            <div>
-                <h1>{this.props.match.params.name}</h1>
-                <h1>{this.props.match.params.team}</h1>
+            <div className="teamDetails">
+                <h4 className="subtitle">League: <span>Team</span></h4>
+                <Team name="Team" rank="1200"></Team>
+                <hr></hr>
+                <div className="games">
+                <Game name="Hamada" opponent="Ai 7aga"></Game>
+                <Game name="Hamada" opponent="Ai 7aga"></Game>
+                <Game name="Hamada" opponent="Ai 7aga"></Game>
+                </div>
             </div>
 
         );;
