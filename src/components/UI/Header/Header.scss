@@ -1,0 +1,23 @@
+.navbar {
+  background-color: #145068 !important;
+  .navbar-brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF !important;
+  }
+  span {
+    &:first-child {
+      font-weight: bold;
+      font-size: 30px;
+      margin-right: 10px;
+    }
+    &:last-child {
+      font-size: 15px;
+      border-width: 2px 0px;
+      border-color: #FFFFFF;
+      border-style: solid;
+      text-transform: uppercase;
+    }
+  }
+}

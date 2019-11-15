@@ -1,3 +1,15 @@
 .App {
   text-align: center;
+  .align-right {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .btn-link {
+    font-size: 18px;
+    font-weight: 400;
+    color: #145068;
+    &:hover {
+      color: #fbad3d;
+    }
+  }
 }
