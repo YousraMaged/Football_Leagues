@@ -1,19 +1,18 @@
 import React, { Component } from 'react';
 import League from '../../../components/League/League';
-import { ProgressBar } from 'react-bootstrap';
+import Container from 'react-bootstrap/Container';
+import './Leagues.scss';
 
 class Leagues extends Component {
 
     render() {
-      
-
         return (
-            <div>
+            <Container>
+                <h3 id="title">Football Leagues</h3>
                 <League></League>
-            </div>
+            </Container>
         );;
     }
-
 }
 
 export default Leagues;

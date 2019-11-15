@@ -1,13 +1,16 @@
 import React from 'react';
+import Navbar from 'react-bootstrap/Navbar';
+import Container from 'react-bootstrap/Container';
 import './Header.scss';
-import Navbar from 'react-bootstrap/Navbar'
 
 const header = props => (
   <Navbar className="navbar">
-    <Navbar.Brand href="#/">
-      <span>Football </span>
-      <span>Leagues</span>
-    </Navbar.Brand>
+    <Container>
+      <Navbar.Brand href="#/">
+        <span>Football </span>
+        <span>Leagues</span>
+      </Navbar.Brand>
+    </Container>
   </Navbar>
 );
 
