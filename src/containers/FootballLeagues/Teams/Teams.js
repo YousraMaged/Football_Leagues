@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
+import { fetchTeams } from './../../../redux/actions';
 import League from '../../../components/League/League';
 import Team from '../../../components/Team/Team';
 import './Teams.scss';
@@ -8,6 +10,10 @@ class Teams extends Component {
     constructor(props) {
         super(props);
         this.viewTeamDetails = this.viewTeamDetails.bind(this);
+    }
+
+    componentDidMount() {
+        this.props.fetchTeams();
     }
 
     render() {
@@ -32,4 +38,8 @@ class Teams extends Component {
     }
 }
 
-export default Teams;
+const mapStateToProps = state => ({
+    teams: state.teams
+})
+
+export default connect(mapStateToProps, { fetchTeams })(Teams);

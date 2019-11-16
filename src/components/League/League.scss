@@ -16,6 +16,9 @@
   .content {
     justify-content: center;
     height: 50%;
+    h3 {
+      text-transform: capitalize;
+    }
   }
   .info {
     font-size: 17px;

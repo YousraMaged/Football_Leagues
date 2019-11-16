@@ -14,7 +14,7 @@ const league = props => (
             <Col xs={10} md={10} lg={10}>
                 <Row className="content">
                     <Col xs={12} md={12} lg={12}>
-                        <h3>Team name</h3>
+                        <h3>{props.name}</h3>
                     </Col>
                 </Row>
                 <Row className="content">
@@ -24,7 +24,7 @@ const league = props => (
                             className="icons"
                             src={require("../../assets/images/ball.png")}
                         />
-                        <span>Icon name</span>
+                        <span>{props.games} games</span>
                     </Col>
                     <Col className="info" xs={2} md={2} lg={2}>
                         <img
@@ -32,7 +32,7 @@ const league = props => (
                             className="icons"
                             src={require("../../assets/images/player.jpg")}
                         />
-                        <span>Icon name</span>
+                        <span>{props.teams} teams</span>
                     </Col>
                     <Col className="align-right" xs={8} md={8} lg={8}>
                         <Button href="/name" variant="link">View Details</Button>

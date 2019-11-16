@@ -1,9 +1,15 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
+import { fetchGames } from './../../../redux/actions';
 import Team from '../../../components/Team/Team';
 import Game from '../../../components/Game/Game';
 import './TeamDetails.scss';
 
 class TeamsDetails extends Component {
+
+    componentWillMount() {
+        this.props.fetchGames();
+    }
 
     render () {
         return (
@@ -22,4 +28,8 @@ class TeamsDetails extends Component {
     }
 }
 
-export default TeamsDetails;
+const mapStateToProps = state => ({
+    games: state.games
+})
+
+export default connect(mapStateToProps, { fetchGames })(TeamsDetails);

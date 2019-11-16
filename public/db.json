@@ -1,0 +1,104 @@
+{
+    "teams": [
+        {
+            "id": "1",
+            "Name": "Liverpool FC",
+            "rank": ""
+        },
+        {
+            "id": "2",
+            "Name": "Manchester City",
+            "rank": ""
+        },
+        {
+            "id": "3",
+            "Name": "Barcelona",
+            "rank": ""
+        },
+        {
+            "id": "4",
+            "Name": "Bayern München",
+            "rank": ""
+        },
+        {
+            "id": "5",
+            "Name": "Ajax Amsterdam",
+            "rank": ""
+        },
+        {
+            "id": "6",
+            "name": "Chelsea FC",
+            "rank": ""
+        },
+        {
+            "id": "7",
+            "name": "Juventus",
+            "rank": ""
+        },
+        {
+            "id": "8",
+            "name": "Paris Saint-Germain",
+            "rank": ""
+        },
+        {
+            "id": "9",
+            "name": "Atlético Madrid",
+            "rank": ""
+        },
+        {
+            "id": "10",
+            "name": "Flamengo",
+            "rank": ""
+        }
+    ],
+    "games": [{
+        "id": "1",
+        "team": "Liverpool FC",
+        "scheduled": "true"
+    },
+    {
+        "id": "2",
+        "team": "Manchester City",
+        "scheduled": "true"
+    },
+    {
+        "id": "3",
+        "team": "Barcelona",
+        "scheduled": "true"
+    },
+    {
+        "id": "4",
+        "team": "Bayern München",
+        "scheduled": "true"
+    },
+    {
+        "id": "5",
+        "team": "Ajax Amsterdam",
+        "scheduled": "true"
+    },
+    {
+        "id": "6",
+        "team": "Chelsea FC",
+        "scheduled": "true"
+    },
+    {
+        "id": "7",
+        "team": "Juventus",
+        "scheduled": "true"
+    },
+    {
+        "id": "8",
+        "team": "Paris Saint-Germain",
+        "scheduled": "true"
+    },
+    {
+        "id": "9",
+        "team": "Atlético Madrid",
+        "scheduled": "true"
+    },
+    {
+        "id": "10",
+        "team": "Flamengo",
+        "scheduled": "true"
+    }]
+}
