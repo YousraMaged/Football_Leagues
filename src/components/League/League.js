@@ -35,7 +35,7 @@ const league = props => (
                         <span>{props.teams} teams</span>
                     </Col>
                     <Col className="align-right" xs={8} md={8} lg={8}>
-                        <Button href="/name" variant="link">View Details</Button>
+                        <Button href={`/${props.id}`} variant="link">View Details</Button>
                     </Col>
                 </Row>
             </Col>

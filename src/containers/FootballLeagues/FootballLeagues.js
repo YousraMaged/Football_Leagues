@@ -15,8 +15,8 @@ class FootballLeagues extends Component {
                 <Container className="wrapper">
                     <h3 className="title">Football Leagues</h3>
                     <Route path="/" exact component={Leagues} />
-                    <Route exact path="/:name" component={Teams} />
-                    <Route exact path="/:name/:team" component={TeamDetails} />
+                    <Route exact path="/:id" component={Teams} />
+                    <Route exact path="/:leagueId/:teamId" component={TeamDetails} />
                 </Container>
             </div>
         );

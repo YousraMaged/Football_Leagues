@@ -2,53 +2,53 @@
     "teams": [
         {
             "id": "1",
-            "Name": "Liverpool FC",
-            "rank": ""
+            "name": "Liverpool FC",
+            "rank": "125"
         },
         {
             "id": "2",
-            "Name": "Manchester City",
-            "rank": ""
+            "name": "Manchester City",
+            "rank": "87"
         },
         {
             "id": "3",
-            "Name": "Barcelona",
-            "rank": ""
+            "name": "Barcelona",
+            "rank": "34"
         },
         {
             "id": "4",
-            "Name": "Bayern München",
-            "rank": ""
+            "name": "Bayern München",
+            "rank": "22"
         },
         {
             "id": "5",
-            "Name": "Ajax Amsterdam",
-            "rank": ""
+            "name": "Ajax Amsterdam",
+            "rank": "78"
         },
         {
             "id": "6",
             "name": "Chelsea FC",
-            "rank": ""
+            "rank": "56"
         },
         {
             "id": "7",
             "name": "Juventus",
-            "rank": ""
+            "rank": "14"
         },
         {
             "id": "8",
             "name": "Paris Saint-Germain",
-            "rank": ""
+            "rank": "51"
         },
         {
             "id": "9",
             "name": "Atlético Madrid",
-            "rank": ""
+            "rank": "14"
         },
         {
             "id": "10",
             "name": "Flamengo",
-            "rank": ""
+            "rank": "87"
         }
     ],
     "games": [{
@@ -59,7 +59,7 @@
     {
         "id": "2",
         "team": "Manchester City",
-        "scheduled": "true"
+        "scheduled": "false"
     },
     {
         "id": "3",
@@ -79,12 +79,12 @@
     {
         "id": "6",
         "team": "Chelsea FC",
-        "scheduled": "true"
+        "scheduled": "false"
     },
     {
         "id": "7",
         "team": "Juventus",
-        "scheduled": "true"
+        "scheduled": "false"
     },
     {
         "id": "8",

@@ -9,4 +9,9 @@
     align-items: flex-start;
     justify-content: center;
   }
+  h4 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
 }
