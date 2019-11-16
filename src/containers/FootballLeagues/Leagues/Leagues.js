@@ -20,6 +20,7 @@ class Leagues extends Component {
             name={formatName(league.league_name)}
             games={Math.floor(Math.random() * 250)}
             teams={Math.floor(Math.random() * 100)}
+            showDetails={true}
           ></League>
         ));
 

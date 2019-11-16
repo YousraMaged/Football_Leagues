@@ -40,7 +40,8 @@ class Teams extends Component {
                             key={this.props.league.league_key}
                             name={formatName(this.props.league.league_name)}
                             games={Math.floor(Math.random() * 250)}
-                            teams={Math.floor(Math.random() * 100)}>
+                            teams={Math.floor(Math.random() * 100)}
+                            showDetails={false}>
                         </League>
                     </div>
                     : null

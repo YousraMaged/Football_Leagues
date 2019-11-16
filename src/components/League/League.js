@@ -3,6 +3,7 @@ import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+
 import './League.scss';
 
 const league = props => (
@@ -34,9 +35,11 @@ const league = props => (
                         />
                         <span>{props.teams} teams</span>
                     </Col>
-                    <Col className="align-right" xs={8} md={8} lg={8}>
-                        <Button href={`/${props.id}`} variant="link">View Details</Button>
-                    </Col>
+                    {props.showDetails ?
+                        <Col className="align-right" xs={8} md={8} lg={8}>
+                            <Button href={`/${props.id}`} variant="link">View Details</Button>
+                        </Col> : null}
+                    
                 </Row>
             </Col>
         </Row>
