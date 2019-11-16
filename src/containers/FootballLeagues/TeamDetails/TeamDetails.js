@@ -26,14 +26,14 @@ class TeamsDetails extends Component {
             scheduled={game.scheduled}
           ></Game>
         ));
-        
+
         return (
             <div className="teamDetails">
                 {this.props.league && this.props.team ?
                     <h4 className="subtitle">{formatName(this.props.league.league_name)} - <span>{this.props.team.name}</span></h4>
                     : null
                 }
-                <Team name="Team" rank="1200"></Team>
+                <Team name={this.props.team.name} rank={this.props.team.rank}></Team>
                 <hr></hr>
                 <div className="games">
                     {games}

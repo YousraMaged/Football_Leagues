@@ -11,7 +11,6 @@ export function generateScore() {
 export function generateDate(future) {
     let startDate;
     let endDate;
-    console.log(future);
     if (future === "true") {
         startDate = new Date(2020, 0, 1).getTime();
         endDate = new Date(2022, 0, 1).getTime();
