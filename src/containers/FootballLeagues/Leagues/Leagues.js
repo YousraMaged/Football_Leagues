@@ -13,6 +13,7 @@ class Leagues extends Component {
     }
 
     render() {
+        // Renders list of leagues from state
         const leagueList = this.props.leagues.map(league => (
           <League
             key={league.league_key}
@@ -32,6 +33,8 @@ class Leagues extends Component {
     }
 }
 
+// called when store changes 
+// selects parts of data from store
 const mapStateToProps = state => ({
     leagues: state.leagues
 })

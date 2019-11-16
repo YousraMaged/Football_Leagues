@@ -16,6 +16,7 @@ class TeamsDetails extends Component {
     }
 
     render () {
+         // Renders list of games from state
         const games = this.props.games.map(game => (
           <Game
             key={game.id}
@@ -43,6 +44,8 @@ class TeamsDetails extends Component {
     }
 }
 
+// called when store changes 
+// selects parts of data from store
 const mapStateToProps = state => ({
     team: state.team,
     games: state.games,

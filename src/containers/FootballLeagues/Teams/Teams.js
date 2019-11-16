@@ -20,6 +20,7 @@ class Teams extends Component {
     }
     
     render() {
+         // Renders list of teams from state
         const teamsList = this.props.teams.map(team => (
             <Team
                 key={team.id}
@@ -54,12 +55,15 @@ class Teams extends Component {
         );
     }
 
+    // Redicrect to team details page using leagueID and teamID
     viewTeamDetails(league, team) {
         this.props.history.push(`/${league}/${team}`);
     }
 
 }
 
+// called when store changes 
+// selects parts of data from store
 const mapStateToProps = state => ({
     teams: state.teams,
     league: state.league

@@ -1,13 +1,17 @@
+// Removes numbering from title
+// 1.League name -> League name
 export function formatName(name) {
     if(name) {
         return name.substr(name.indexOf('.') + 2)
     }
 }
 
+// Generate random numbers between 1 - 5
 export function generateScore() {
     return `${Math.floor(Math.random() * 5)} : ${Math.floor(Math.random() * 5)}`
 }
 
+// Generate random future or paste date
 export function generateDate(future) {
     let startDate;
     let endDate;
@@ -24,6 +28,7 @@ export function generateDate(future) {
     return new Date(timestamp);
 }
 
+// Formats date to DD-MM-YYYY
 export function formatDate(future) {
     let date = generateDate(future);
     return `${date.getDate()}-${date.getMonth() + 1}-${date.getFullYear()}`
